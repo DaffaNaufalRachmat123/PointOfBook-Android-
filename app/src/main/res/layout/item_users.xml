@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/card_users"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imageUsers"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:paddingTop="16dp"
+            android:paddingLeft="16dp"
+            android:paddingBottom="16dp"
+            android:paddingRight="16dp"
+            android:src="@mipmap/ic_launcher_round"/>
+        <TextView
+            android:id="@+id/users_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="naufalrachmat91@gmail.com"
+            android:textSize="17sp"
+            android:layout_toRightOf="@id/imageUsers"
+            android:paddingTop="16dp"/>
+        <TextView
+            android:id="@+id/users_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:layout_toRightOf="@id/imageUsers"
+            android:layout_below="@id/users_email"
+            android:text="Nama : Daffa Naufal Rachmat"/>
+        <TextView
+            android:id="@+id/users_sekolah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imageUsers"
+            android:layout_below="@id/users_name"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:text="Sekolah : SMKN 5 Kota Bekasi"/>
+        <TextView
+            android:id="@+id/users_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imageUsers"
+            android:layout_below="@id/users_sekolah"
+            android:textColor="@android:color/black"
+            android:text="Password : **********"/>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
